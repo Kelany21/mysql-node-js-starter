@@ -1,5 +1,5 @@
-# kelany-node-js-starter
-Starter for Node.js
+# mysql-node-js-starter
+Starter for Node.js with mysql database
 
 Migrate Command => node -e 'require("./database/helpers").migrate()'
 
