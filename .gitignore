@@ -1,0 +1,7 @@
+.idea
+.env
+/node_modules/
+docker-compose.yml
+Dockerfile
+/nginx/
+/mysql/

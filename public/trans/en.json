@@ -1,0 +1,4 @@
+{
+  "test": "test",
+  "done_create": "Done create %(itemName)s"
+}
