@@ -1,3 +1,5 @@
+const dotenv = require('dotenv');
+dotenv.config();
 const db = require('../db');
 const sequelize = db.sequelize;
 
@@ -8,6 +10,6 @@ User.init({
     password: db.DataTypes.STRING,
     is_admin: db.DataTypes.BOOLEAN,
     token: db.DataTypes.STRING
-}, { sequelize, modelName: 'user' });
+}, { sequelize, modelName: 'user', database: process.env.DATABASE_NAME });
 
 module.exports = User;

@@ -6,4 +6,5 @@ module.exports = {
     plural: 'users',
     Singular: 'User',
     Plural: 'Users',
+    allowToSeed: false,
 };
